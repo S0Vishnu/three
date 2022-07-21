@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    background-color: #febf00;
+    font-family: sans-serif;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    outline: none;
+}
+
+.mapCanvas {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+
+div {
+    position: absolute;
+    z-index: 2;
+}
+
+.btn-1 {
+    bottom: 10%;
+    left: 10%;
+}
+
+.btn-2 {
+    bottom: 10%;
+    right: 10%;
+}
+
+p {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 2em;
+    background-color: #008cff;
+    box-shadow: 5px 10px 20px #d79c2d;
+    cursor: pointer;
+}
+
+.top {
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #222222;
+}
